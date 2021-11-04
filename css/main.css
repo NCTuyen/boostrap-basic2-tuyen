@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0;
+  margin: auto;
+}
+
+.layout {
+  height: 200px;
+  background: #171649;
+  position: relative;
+}
+
+.form-inline .row label {
+  width: 100%;
+  font-size: 13px;
+}
+
+.form-inline .row input {
+  width: 100%;
+  font-size: 12px;
+}
+
+.form-inline .form-group {
+  max-width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.form-inline .form-group button {
+  width: 100%;
+  height: 28px;
+}
+
+.forms {
+  padding: 20px;
+  background: #fff;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.forms .bgr {
+  background: #b6b5b5;
+}
+
+.forms .bgr .col-12 {
+  padding-right: 80px;
+  margin-bottom: 30px;
+}
+
+.forms .card {
+  border: none;
+}
+
+.card-header {
+  border: none;
+}
+
+.card-header .row div {
+  font-size: 13px;
+}
+
+.tables {
+  padding: 20px;
+  background: #fff;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.form-control {
+  border-radius: 0;
+  padding: 5px;
+}
+
+.form-control:focus {
+  border: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: black;
+}
+
+.table .thead-bluee {
+  background: #5c90f1;
+  border: none;
+}
+
+.scroll {
+  height: 500px;
+  overflow: scroll;
+}
+
+.height {
+  height: 800px;
+}
+
+.selectcustom {
+  height: 25px;
+  border: 1px solid #c4c1c1;
+  font-size: 11px;
+}
+
+.selectcustom:focus {
+  border: 1px solid #c4c1c1;
+}
+
+.selectcustom option {
+  font-size: 13px;
+}
+/*# sourceMappingURL=main.css.map */

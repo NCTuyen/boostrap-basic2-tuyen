@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1280px;
+    padding: 0;
+    margin: auto;
+}
+.layout {
+    height: 200px;
+    background: rgb(23, 22, 73);
+    position: relative;
+}
+.form-inline {
+    .row {
+        label {
+            width: 100%;
+            font-size: 13px;
+        }
+        input {
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+    .form-group {
+        max-width: 100%;
+        margin-bottom: 0.25rem;
+        button {
+            width: 100%;
+            height: 28px;
+        }
+    }
+}
+.forms {
+    padding:20px;
+    background: #fff;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    .bgr {
+        background: rgb(182, 181, 181);
+        .col-12 {
+            padding-right: 80px;
+            margin-bottom: 30px;
+        }
+    }
+    .card {
+        border: none;
+    }
+}
+.card-header  {
+    border: none;
+    .row {
+        div {
+            font-size: 13px;
+        }
+    }
+}
+.tables {
+    padding:20px;
+    background: #fff;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form-control {
+    border-radius: 0;
+    padding: 5px;
+    &:focus {
+        border: black;
+        box-shadow: none;
+    }
+}
+.btn-secondary {
+    background: #fff;
+    color: black; 
+}
+.table {
+    .thead-bluee {
+        background: rgb(92, 144, 241);
+        border: none;
+    }
+}
+.scroll {
+    height: 500px;
+    overflow: scroll;
+}
+.height {
+    height: 800px;
+}
+.selectcustom {
+    height: 25px;
+    border: 1px solid rgb(196, 193, 193);
+    font-size: 11px;
+    &:focus {
+        border:1px solid rgb(196, 193, 193) ;
+    }
+    option {
+        font-size: 13px;
+    }
+}
